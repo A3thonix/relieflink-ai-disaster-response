@@ -52,7 +52,9 @@ Captured from the running application:
 
 ## Deployment
 
-The static app can be imported into Vercel from this repository; `vercel.json` adds baseline response headers. Deploying the static files does **not** add shared persistence or production authentication: browser storage remains isolated per visitor. Before using it as a real community service, add a secured backend/database, server-side authentication and authorization, abuse controls, privacy/retention policy, emergency-response partners, and operational monitoring. No real emergency should depend on this prototype.
+The static app can be imported into Vercel from this repository; `vercel.json` adds baseline response headers. To publish on GitHub Pages, run `npm run build`, then configure the repository's **Settings → Pages → Deploy from a branch → `main` / `/docs`**. The project page URL is `https://a3thonix.github.io/relieflink-ai-disaster-response/` once Pages is enabled. Rebuild and push the generated `docs/` files after source changes.
+
+Deploying the static files does **not** add shared persistence or production authentication: browser storage remains isolated per visitor. Before using it as a real community service, add a secured backend/database, server-side authentication and authorization, abuse controls, privacy/retention policy, emergency-response partners, and operational monitoring. No real emergency should depend on this prototype.
 
 ## Team and contributions
 

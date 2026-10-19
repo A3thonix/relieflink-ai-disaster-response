@@ -52,7 +52,7 @@ Captured from the running application:
 
 ## Deployment
 
-The static app can be imported into Vercel from this repository; `vercel.json` adds baseline response headers. To publish on GitHub Pages, run `npm run build`, then configure the repository's **Settings → Pages → Deploy from a branch → `main` / `/docs`**. The project page URL is `https://a3thonix.github.io/relieflink-ai-disaster-response/` once Pages is enabled. Rebuild and push the generated `docs/` files after source changes.
+**Live demo:** [a3thonix.github.io/relieflink-ai-disaster-response](https://a3thonix.github.io/relieflink-ai-disaster-response/). The static app can also be imported into Vercel from this repository; `vercel.json` adds baseline response headers. To update GitHub Pages after changing the app, run `npm run build` and push the generated `docs/` files.
 
 Deploying the static files does **not** add shared persistence or production authentication: browser storage remains isolated per visitor. Before using it as a real community service, add a secured backend/database, server-side authentication and authorization, abuse controls, privacy/retention policy, emergency-response partners, and operational monitoring. No real emergency should depend on this prototype.
 
@@ -67,7 +67,7 @@ Deploying the static files does **not** add shared persistence or production aut
 - [x] Meaningful, demonstrable AI/ML component with methodology and limitations documented
 - [x] Setup instructions and an end-to-end demo flow
 - [x] Genuine product screenshots
-- [ ] Deploy a judge-accessible live link and verify it
+- [x] Deploy and verify a judge-accessible live link
 - [ ] Capture genuine screenshots and a short demo video
 - [ ] Confirm participant/team names and their contributions
 - [ ] Submit the product link, demo, description, and repository using the official form
